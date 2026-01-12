@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.html
+rpkg/foo*
+large/*
+ml/*
+.ipynb_checkpoints
+old/
+*.pdf
+.python-version
