@@ -10,3 +10,4 @@ ml/*
 old/
 *.pdf
 .python-version
+.DS_store
