@@ -1,0 +1,11 @@
+```
+git status  # git subtree requires a clean workspace. Commit all your current modifications or stash them.
+
+git fetch upstream
+git subtree pull --prefix=notes upstream published --squash
+git push
+```
+
+Do not use Sync fork / merge / reset to align the whole branch.
+Use git subtree to update content from upstream.
+Update `notes/` only iwth git subtree pull.
